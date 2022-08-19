@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "one-time-overrides",
+  "version": "${version}",
+  "name": "OneTimeOverrides",
+  "description": "Allows modpack authors to add non-overwriting override files.",
+  "authors": [
+    "zziius"
+  ],
+  "contact": {
+    "homepage": "https://github.com/horizr/one-time-overrides",
+    "issues": "https://github.com/horizr/one-time-overrides/issues",
+    "sources": "https://github.com/horizr/one-time-overrides"
+  },
+  "license": "MIT",
+  "icon": "assets/one-time-overrides/icon.png",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "xyz.horizr.onetimeoverrides.OneTimeOverridesKt::init"
+      }
+    ]
+  },
+  "depends": {
+    "fabricloader": "${fabricLoaderVersion}",
+    "fabric-language-kotlin": "${fabricLanguageKotlinVersion}"
+  }
+}
