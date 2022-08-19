@@ -50,6 +50,7 @@ tasks {
 
     remapJar {
         addNestedDependencies.set(true)
+        archiveVersion.set("v${project.version}")
     }
 }
 

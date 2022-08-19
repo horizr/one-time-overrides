@@ -4,12 +4,12 @@
 
 <p align="center">
     <a href="https://modrinth.com/mod/one-time-overrides">
-      <img src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
+      <img width="160" src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
     </a>
 </p>
 
 <p align="center">
-    A Fabric mod allowing modpack authors to add non-overwriting override files.
+    <b>A Fabric mod allowing modpack authors to add non-overwriting override files.</b>
 </p>
 
 # OneTimeOverrides
