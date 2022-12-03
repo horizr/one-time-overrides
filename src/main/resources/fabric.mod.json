@@ -23,7 +23,7 @@
     ]
   },
   "depends": {
-    "fabricloader": "${fabricLoaderVersion}",
-    "fabric-language-kotlin": "${fabricLanguageKotlinVersion}"
+    "fabricloader": ">=${fabricLoaderVersion}",
+    "fabric-language-kotlin": ">=${fabricLanguageKotlinVersion}"
   }
 }
